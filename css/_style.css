@@ -1,1 +1,59 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
+@-moz-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@-ms-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@-o-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@-webkit-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@viewport {
+  width: device-width;
+  scale: 1;
+}
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.iconset {
+  height: 100vh;
+  display: block;
+  background-image: url(img/bgimage.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.icon-elephant, .icon-yoga {
+  color: #fff;
+  font-size: 10em;
+}
+
+.icon-elephant:hover, .icon-yoga:hover {
+  color: #8facd1;
+  font-size: 12em;
+}
